@@ -14,10 +14,10 @@ export default function HomePage() {
       <section className="hero">
         {/* Background videos (mobile + desktop), full-bleed */}
         <video className="hero-video mobile-only" autoPlay muted loop playsInline poster="/hero/hero-mobile.jpg">
-          <source src="/hero/hero-mobile.mp4" type="video/mp4" />
+          <source src="/video/output_hero.mp4" type="video/mp4" />
         </video>
         <video className="hero-video desktop-only" autoPlay muted loop playsInline poster="/hero/hero-desktop.jpg">
-          <source src="/hero/Peaceful_Mountain_Night_Sky_Journey.mp4" type="video/mp4" />
+          <source src="/video/output_hero.mp4" type="video/mp4" />
         </video>
 
         {/* Content */}
