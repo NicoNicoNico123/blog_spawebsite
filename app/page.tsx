@@ -37,7 +37,7 @@ export default function HomePage() {
               在 Spotify 訂閱
             </a>
             <a
-              href="https://www.youtube.com/"
+              href="https://www.youtube.com/@%E6%9E%95%E9%82%8A%E6%9B%B8%E8%81%B2/podcasts"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-yt"
@@ -48,7 +48,7 @@ export default function HomePage() {
               在 YouTube 訂閱
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/midnightbookwhisper/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ig"
@@ -165,7 +165,7 @@ export default function HomePage() {
 
 
             <a
-              href="https://www.youtube.com/"
+              href="https://www.youtube.com/@%E6%9E%95%E9%82%8A%E6%9B%B8%E8%81%B2/podcasts"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-yt btn-shine"
