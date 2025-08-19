@@ -14,10 +14,10 @@ export default function HomePage() {
       <section className="hero">
         {/* Background videos (mobile + desktop), full-bleed */}
         <video className="hero-video mobile-only" autoPlay muted loop playsInline poster="/hero/hero-mobile.jpg">
-          <source src="/video/output_hero.mp4" type="video/mp4" />
+          <source src="/video/A_sheep_in_202508191445.mp4" type="video/mp4" />
         </video>
         <video className="hero-video desktop-only" autoPlay muted loop playsInline poster="/hero/hero-desktop.jpg">
-          <source src="/video/output_hero.mp4" type="video/mp4" />
+          <source src="/video/A_sheep_in_202508191445.mp4" type="video/mp4" />
         </video>
 
         {/* Content */}
@@ -26,7 +26,7 @@ export default function HomePage() {
           <p className="hero-subtitle">{subtitle}</p>
           <div className="cta-buttons">
             <a
-              href="https://open.spotify.com/episode/3VTzqMJNvw4VXKxdeGOmpJ?si=Tjho8pOIQYaSswgwU0TveA"
+              href="https://open.spotify.com/show/0AW5ZbDhRLkKm9LI954EbF?si=h2zhZeO_TlSs80dN-7_4Jw"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-spotify"
@@ -127,20 +127,17 @@ export default function HomePage() {
           <SceneCard
             title="🌙 半夜失眠"
             description="幫你慢慢放低思緒，較易入睡。"
-            posterSrc="/images/sleep.png"
-            videoSrc="/videos/sleep.mp4"
+            posterSrc="/images/sleep2.png"
           />
           <SceneCard
             title="🛌 輾轉反側"
             description="用沉悶聲音沖淡雜念，伴你進入睡鄉。"
-            posterSrc="/images/commute.png"
-            videoSrc="/videos/commute.mp4"
+            posterSrc="/images/boring.png"
           />
           <SceneCard
             title="💤 腦袋太清醒時"
             description="重複聲音，催眠腦筋，一齊恰眼訓。"
-            posterSrc="/images/alone.png"
-            videoSrc="/videos/solitude.mp4"
+            posterSrc="/images/mind.png"
           />
         </div>
       </section>
@@ -152,7 +149,7 @@ export default function HomePage() {
 
           <div className="cta-buttons" style={{ justifyContent: 'center' }}>
             <a
-              href="https://open.spotify.com/show/0AW5ZbDhRLkKm9LI954EbF?si=f3966b6704fe4e27"
+              href="https://open.spotify.com/show/0AW5ZbDhRLkKm9LI954EbF?si=h2zhZeO_TlSs80dN-7_4Jw"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-spotify btn-shine"
