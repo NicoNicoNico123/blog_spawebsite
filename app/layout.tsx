@@ -27,14 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           `}
         </Script>
         <BackgroundAudio />
-        <header className="site-header site-header--overlay">
-          <div className="container header-inner">
-            {/** Nav and brand removed for single-page application */}
-            <button className="menu-toggle" aria-label="Toggle menu">
-              <span className="logo" style={{ fontSize: 20 }}>☰</span>
-            </button>
-          </div>
-        </header>
+        <header className="site-header site-header--overlay" />
         <main>{children}</main>
         <footer className="site-footer">
           <div className="container">

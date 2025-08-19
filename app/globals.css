@@ -44,10 +44,7 @@ body {
   justify-content: space-between;
   padding: 14px 0;
 }
-.menu-toggle { display: none; background: transparent; border: none; color: var(--text); cursor: pointer; }
-@media (max-width: 1024px) {
-  .menu-toggle { display: block; }
-}
+/* hamburger menu removed */
 /* Brand removed */
 .brand { display: none; }
 
