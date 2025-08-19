@@ -6,7 +6,7 @@ import SceneCard from './components/SceneCard';
 
 export default function HomePage() {
   const title = `${siteConfig.name}`;
-  const subtitle = '用耳朵聽書，用心感受故事';
+  const subtitle = '讓沉悶聲音令你恰眼訓';
   // No markdown or long-form copy; hero + scenes + platforms only
 
   return (
@@ -26,7 +26,7 @@ export default function HomePage() {
           <p className="hero-subtitle">{subtitle}</p>
           <div className="cta-buttons">
             <a
-              href="https://open.spotify.com/show/0AW5ZbDhRLkKm9LI954EbF?si=f3966b6704fe4e27"
+              href="https://open.spotify.com/episode/3VTzqMJNvw4VXKxdeGOmpJ?si=Tjho8pOIQYaSswgwU0TveA"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-spotify"
@@ -67,7 +67,7 @@ export default function HomePage() {
         <div className="card">
           <h2>🎧 了解本頁與頻道</h2>
           <p className="text-muted" style={{ marginTop: 6 }}>
-            透過下方 Spotify 內嵌播放器，快速了解本頁內容與「枕邊書聲」Podcast 頻道的宗旨與風格。
+            透過下方 Spotify 內嵌播放器，快速了解本頁內容與「講到你瞓着」Podcast 頻道的宗旨與風格。
           </p>
           <iframe
             title="Spotify introduction episode"
@@ -112,11 +112,11 @@ export default function HomePage() {
           <div style={{ marginTop: 16 }}>
             <h2>🌙 關於我們</h2>
             <p>
-              入夜之後，攤喺床上、抱住個枕頭，耳邊傳嚟一個又一個動人故事——呢度係
-              <strong>「枕邊書聲」</strong>，一個專為忙碌都市人打造嘅聽書空間。
+              夜幕低垂，當你攤喺床上、抱住枕頭，耳邊傳來節奏緩慢、語氣單調、內容重複又欠互動的聲音——你已經進入
+              <strong>「講到你瞓着」</strong> 嘅世界。
             </p>
             <p>
-              每一集，我哋會用溫柔嘅聲音同你一齊探索心理學、人際關係同各種實用生活哲學。無論係解讀心靈成長、分享人際相處智慧，定係介紹幫到你生活嘅小工具思維，都會喺呢度慢慢展開。
+              呢個頻道專為渴望輕鬆入睡、遠離思緒紛擾的都市人而設。每一集透過沉悶與單一調子的內容，慢慢助你恰眼訓，讓腦袋自然放空，身心逐漸放鬆。
             </p>
           </div>
         </div>
@@ -125,20 +125,20 @@ export default function HomePage() {
       <section className="container" style={{ marginTop: 20 }}>
         <div className="grid scenes">
           <SceneCard
-            title="🌙 瞓前放鬆"
-            description="以溫柔聲線，伴你慢慢入夢，讓思緒沉澱。"
+            title="🌙 半夜失眠"
+            description="幫你慢慢放低思緒，較易入睡。"
             posterSrc="/images/sleep.png"
             videoSrc="/videos/sleep.mp4"
           />
           <SceneCard
-            title="🚇 通勤同行"
-            description="在地鐵巴士之間，用碎片時間吸收故事的營養。"
+            title="🛌 輾轉反側"
+            description="用沉悶聲音沖淡雜念，伴你進入睡鄉。"
             posterSrc="/images/commute.png"
             videoSrc="/videos/commute.mp4"
           />
           <SceneCard
-            title="🏠 獨處片刻"
-            description="一杯熱飲、一段聲音——安安靜靜和自己對話。"
+            title="💤 腦袋太清醒時"
+            description="重複聲音，催眠腦筋，一齊恰眼訓。"
             posterSrc="/images/alone.png"
             videoSrc="/videos/solitude.mp4"
           />

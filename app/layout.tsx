@@ -4,8 +4,8 @@ import Script from 'next/script';
 import BackgroundAudio from './components/BackgroundAudio';
 
 export const metadata: Metadata = {
-  title: '枕邊書聲｜Podcast',
-  description: '用耳朵聽書，用心感受故事',
+  title: '講到你瞓着｜讓沉悶聲音令你恰眼訓',
+  description: '入夜之後，攤喺床上、抱住個枕頭，耳邊傳嚟一個又一個沉悶聲音——呢度係「講到你瞓着」，一個專為忙碌都市人打造嘅恰眼訓空間。',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <footer className="site-footer">
           <div className="container">
-            <p>© {new Date().getFullYear()} 枕邊書聲 · 用聲音打開閱讀的另一種可能</p>
+            <p>© {new Date().getFullYear()} 講到你瞓着 · 讓沉悶聲音令你恰眼訓</p>
           </div>
         </footer>
       </body>

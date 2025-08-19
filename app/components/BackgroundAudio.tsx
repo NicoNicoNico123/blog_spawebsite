@@ -76,6 +76,7 @@ export default function BackgroundAudio(): React.ReactElement {
       ref={audioElementRef}
       src={BACKGROUND_AUDIO_SRC}
       autoPlay
+      muted
       loop
       preload="auto"
       playsInline
